@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    background-color: #1F2039;
+}
+
+a {
+    text-decoration: none;
+    color: #242424;
+}
+
+em {
+    color: #A5B4FC;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5em;
+    color: #a5b4fc;
+}
+
+h2 {
+    color: #F9F8FF;
+}
+
+p {
+    font-family: "Manrope", sans-serif;
+    font-size: 1.1em;
+    color: #F9F8FF;
+    margin-bottom: 30px;
+}
+
+li {
+    font-family: "Manrope", sans-serif;
+    font-size: 1em;
+    color: #F9F8FF;
+}
+
+header,
+footer {
+    background-color: white;
+    padding: 20px 50px; /* 20: haut et bas, 50: gauche et droite */
+}
+
+.cta {
+    background: linear-gradient(#8E86B5,#ACAEED);
+    color: white;
+    border-radius: 50px;
+    padding: 20px 30px;
+}
+
+.cta:hover {
+    background: linear-gradient(#696484,#8788BA);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.photomehdi {
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    padding: 15px;
+}
+
+.carre-contenu {
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    padding: 50px;
+}
+
+.carre-contenu h2 {
+    margin-top: 30px;
+}
+
+.carre-contenu ul {
+    margin-top: 30px;
+}
+
+section {
+    padding: 80px;
+}
+
+.a-propos-main {
+    width: 50%;
+    margin: auto;
+}
+
+nav, footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    margin-left: 30px;
+}
+
+.accueil-photo {
+    background-color: white;
+    padding: 80px;
+}
+
+.accueil-photo h2 {
+    text-align: center;
+    color: #242424;
+}
+
+.accueil-photo p {
+    text-align: center;
+    margin-bottom: 80px;
+    color: darkgray;
+    font-size: 0.9em;
+}
+
+.accueil-photo div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+footer a {
+    margin-left: 30px;
+}
+
+.accueil-introduction {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    margin: auto;
+}
+
+.icon:hover {
+    opacity: 0.5;
+}
+
+.image-container {
+    position: relative;
+    max-width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.photoexemple {
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    gap: 10px;
+}
+
+.a-propos-techno {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.a-propos-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #a5b4fc;
+    font-size: 0.8em;
+    margin-top: 15px;
+    gap: 15px;
+}
+
+.a-propos-icon:hover i,
+.a-propos-icon:hover em {
+    color: #F9F8FF;
+}
+
