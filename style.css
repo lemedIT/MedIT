@@ -47,6 +47,11 @@ footer {
     padding: 20px 50px; /* 20: haut et bas, 50: gauche et droite */
 }
 
+.footer-icon a:hover,
+.footer-icon i:hover {
+    color: #A5B4FC;
+}
+
 .cta {
     background: linear-gradient(#8E86B5,#ACAEED);
     color: white;
