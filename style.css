@@ -191,6 +191,12 @@ footer a {
     gap: 10px;
 }
 
+.photoexemple img {
+    width: 290px;
+    height: auto;
+}
+
+
 .a-propos-techno {
     display: flex;
     justify-content: space-evenly;
