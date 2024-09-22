@@ -6,6 +6,11 @@ body {
     font-family: 'Manrope', sans-serif;
     font-size: 1em;
     background-color: #1F2039;
+    height: 100%;
+}
+
+main {
+    min-height: calc(100vh - 100px);
 }
 
 a {
