@@ -217,3 +217,15 @@ footer a {
     color: #F9F8FF;
 }
 
+.galerie {
+    display: grid;
+    grid-template-columns: 326px 326px 326px;
+    grid-template-rows: 311px 311px 311px;
+    background-color: white;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box {
+    background-color: black;
+}
